@@ -1,0 +1,6 @@
+framework module SAYAdditions {
+  umbrella header "SAYAdditions-umbrella.h"
+
+  export *
+  module * { export * }
+}
