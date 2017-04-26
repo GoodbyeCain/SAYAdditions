@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SAYAdditions_Example' do
+  pod 'SAYAdditions', :path => '../'
+
+  target 'SAYAdditions_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
